@@ -1,0 +1,258 @@
+Afghanistan
+Akrotiri
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barb.
+Argentina
+Armenia
+Aruba
+Ashmore and Cartier Is.
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Baikonur
+Bajo Nuevo Bank
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bir Tawil
+Bolivia
+Bosnia and Herz.
+Botswana
+Brazil
+Brazilian I.
+Br. Indian Ocean Ter.
+British Virgin Is.
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Is.
+Central African Rep.
+Chad
+Chile
+China
+Clipperton I.
+Colombia
+Comoros
+Congo
+Cook Is.
+Coral Sea Is.
+Costa Rica
+Croatia
+C\u00f4te d'Ivoire
+Cuba
+Cura\u00e7ao
+Cyprus
+Cyprus U.N. Buffer Zone
+Czechia
+Dem. Rep. Congo
+Denmark
+Dhekelia
+Djibouti
+Dominica
+Dominican Rep.
+Ecuador
+Egypt
+El Salvador
+Eq. Guinea
+Eritrea
+Estonia
+eSwatini
+Ethiopia
+Faeroe Is.
+Falkland Is.
+Fiji
+Finland
+France
+Fr. Polynesia
+Fr. S. Antarctic Lands
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard I. and McDonald Is.
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indian Ocean Ter.
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Is.
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+N. Cyprus
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+N. Mariana Is.
+Norfolk Island
+North Korea
+North Macedonia
+Norway
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn Is.
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Lucia
+Samoa
+San Marino
+Saudi Arabia
+Scarborough Reef
+Senegal
+Serbia
+Serranilla Bank
+Seychelles
+S. Geo. and the Is.
+Siachen Glacier
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Is.
+Somalia
+Somaliland
+South Africa
+Southern Patagonian Ice Field
+South Korea
+Spain
+Spratly Is.
+Sri Lanka
+S. Sudan
+St-Barth\u00e9lemy
+St. Kitts and Nevis
+St-Martin
+St. Pierre and Miquelon
+St. Vin. and Gren.
+S\u00e3o Tom\u00e9 and Principe
+Sudan
+Suriname
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Is.
+Tuvalu
+\u00c5land
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States of America
+Uruguay
+U.S. Minor Outlying Is.
+USNB Guantanamo Bay
+U.S. Virgin Is.
+Uzbekistan
+Vanuatu
+Vatican
+Venezuela
+Vietnam
+Wallis and Futuna Is.
+W. Sahara
+Yemen
+Zambia
+Zimbabwe
