@@ -8,14 +8,16 @@ from tqdm import tqdm
 import multiprocessing
 from functools import lru_cache
 
+
 @lru_cache(maxsize=1)
-def load_countries_from_file(filename='countries.txt'):
+def load_countries_from_file(filename='world.txt'):
     try:
         with open(filename, 'r', encoding='utf-8') as file:
             return frozenset(line.strip() for line in file if line.strip())
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found.", file=sys.stderr)
         return frozenset()
+
 
 @lru_cache(maxsize=1)
 def lazy_load_world_dataset(filename='ne_10m_admin_0_countries.shp'):
@@ -25,8 +27,10 @@ def lazy_load_world_dataset(filename='ne_10m_admin_0_countries.shp'):
         print(f"Error loading world dataset: {e}", file=sys.stderr)
         sys.exit(1)
 
+
 # Load countries from file
 all_countries = load_countries_from_file()
+
 
 def get_random_point_in_polygon(geometry):
     if isinstance(geometry, MultiPolygon):
@@ -42,6 +46,7 @@ def get_random_point_in_polygon(geometry):
     else:
         raise ValueError(f"Unsupported geometry type: {type(geometry)}")
 
+
 def generate_point_for_country(country_data):
     country_name, geometry = country_data
     try:
@@ -53,9 +58,11 @@ def generate_point_for_country(country_data):
         print(f"Error generating point for {country_name}: {e}", file=sys.stderr)
         return None
 
+
 def filter_and_validate_countries(input_countries):
     valid_countries = set(country for country in input_countries if country in all_countries)
     return valid_countries, set(input_countries) - valid_countries
+
 
 def generate_coordinates(locations, num_points=1, feeling_lucky=False):
     if feeling_lucky:
@@ -96,11 +103,13 @@ def generate_coordinates(locations, num_points=1, feeling_lucky=False):
 
     return list(coordinates), list(osm_links), set(generated_countries), invalid_locations
 
+
 def process_input(input_item):
     if input_item.endswith('.txt'):
         return load_countries_from_file(input_item)
     else:
         return {input_item}
+
 
 def get_user_input(parser):
     args = parser.parse_args()
@@ -108,7 +117,7 @@ def get_user_input(parser):
     if not sys.argv[1:]:
         print("1. Enter specific countries")
         print("2. I'm Feeling Lucky (random country/ies)")
-        print("3. Use default countries from countries.txt")
+        print("3. Use default countries from world.txt")
         choice = input("Enter your choice (1, 2, or 3): ")
 
         if choice == "1":
@@ -118,11 +127,11 @@ def get_user_input(parser):
             args.input = []
             args.lucky = True
         elif choice == "3":
-            args.input = ['countries.txt']
+            args.input = ['world.txt']
             args.lucky = False
         else:
-            print("Invalid choice. Defaulting to countries.txt")
-            args.input = ['countries.txt']
+            print("Invalid choice. Defaulting to world.txt")
+            args.input = ['world.txt']
             args.lucky = False
 
         args.num_points = int(input("Enter the number of points to generate: "))
@@ -135,6 +144,7 @@ def get_user_input(parser):
 
     return args
 
+
 def save_coordinates_to_file(coordinates, filename):
     try:
         with open(filename, 'w', encoding='utf-8') as f:
@@ -142,6 +152,7 @@ def save_coordinates_to_file(coordinates, filename):
         print(f"Coordinates saved to {filename}")
     except IOError as e:
         print(f"Error saving coordinates to file: {e}", file=sys.stderr)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate random coordinates for specified countries.")
@@ -180,6 +191,7 @@ def main():
             print("Invalid countries:", ", ".join(sorted(invalid_locations)), file=sys.stderr)
     else:
         print("No coordinates generated. Please check your input and try again.", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()
