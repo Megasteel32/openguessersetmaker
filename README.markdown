@@ -76,6 +76,8 @@ If no command-line arguments are provided, the script will run in interactive mo
 
 ## License
 
+This project, like most of my projects, is released under the Creative Commons BY-NC-SA 4.0 license, which allows you to do pretty much anything except make money off of it or permit others to make money off of it. If you don't like this, don't use my projects! It is that simple. I still consider this free and open source, fuck Richard Stallman and fuck the FSF. Who the hell reads "free" and thinks "libre"?
+
 ## Acknowledgements
 Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com
 
